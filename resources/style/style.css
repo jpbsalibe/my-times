@@ -1,0 +1,97 @@
+/*--- GENERAL STYLES ---*/
+
+section {
+    position: relative;
+    top: 100px;
+}
+
+body {
+    margin: auto;
+}
+
+/*--- CONTAINER ---*/
+
+.container {
+    display: flex;
+}
+
+
+/*--- HEADER STYLES ---*/
+
+header {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 1;
+}
+
+nav span {
+    padding-left: 30px;
+    flex-shrink: 1;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 30px;
+    flex-shrink: 2;
+}
+
+.logo span {
+    color: mediumaquamarine;
+}
+
+nav {
+    display: inline-block;
+    align-content: center;
+}
+
+span a {
+    color: black;
+}
+
+
+/*--- MAIN CONTENT STYLES ---*/
+
+div {
+    border: 1px solid black;
+}
+
+.content {
+    justify-content: space-around;
+}
+
+column {
+    display: flex;
+}
+
+.column.large {
+    width: 630px;
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
+}
+
+/*--- BACKGROUNDS ---*/
+
+
+
+
+
+
+
+
+
+
