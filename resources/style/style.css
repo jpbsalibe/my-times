@@ -28,6 +28,7 @@ footer {
 /*--- HEADER STYLES ---*/
 
 header {
+    display: flex;
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
@@ -93,6 +94,7 @@ column {
     width: 240px;
 }
 
+
 /*--- BACKGROUNDS ---*/
 
 .story-main {
@@ -131,6 +133,14 @@ column {
     color: white;
 }
 
+/*--- SECONDARY CONTENT ---*/
+
+.secondary-content-large {
+    display: inline-block;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
 
 
 
