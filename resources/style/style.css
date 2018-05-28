@@ -1,20 +1,27 @@
 /*--- GENERAL STYLES ---*/
 
 section {
-    position: relative;
-    top: 100px;
+    padding-top: 6%;
 }
 
 body {
     margin: auto;
 }
 
+footer {
+}
+
 
 
 /*--- CONTAINER ---*/
 
-.container {
+.flex {
     display: flex;
+}
+
+.content {
+    width: 98%;
+    margin: auto;
 }
 
 
@@ -25,8 +32,8 @@ header {
     font-size: 14px;
     font-weight: bold;
     width: 100%;
+    background-color: white;
     align-items: center;
-    flex-direction: row;
     border: 1px solid black;
     justify-content: space-between;
     border: 1px solid black;
@@ -99,10 +106,12 @@ column {
 
 .story-two {
     background-image: url(../images/img-story-2.png);
+    height: 300px;
 }
 
 .story-three {
     background-image: url(../images/img-story-3.png);
+    height: 300px;
 }
 
 .story-one {
